@@ -1,6 +1,6 @@
 package Text::NameCase ;    # Documented at the __END__.
 
-# $Id: NameCase.pm,v 1.10 1999/07/29 19:06:19 root Exp $
+# $Id: NameCase.pm,v 1.11 1999/08/08 15:17:23 root Exp $
 
 require 5.004 ;
 
@@ -10,7 +10,7 @@ use Carp ;
 
 use vars qw( $VERSION @ISA @EXPORT @EXPORT_OK ) ;
 
-$VERSION = '1.06' ;
+$VERSION = '1.07' ;
 
 
 use Exporter() ;
@@ -210,6 +210,8 @@ Use Kim Ryan's NameParse.pm for any really sophisticated name parsing.
 1999/07/30  Modified for CPAN and automatic testing. Stopped using $_ as the
             default argument.
 
+1999/08/08  Changed licence to LGPL.
+
 
 =head1 AUTHOR
 
@@ -222,8 +224,7 @@ Thanks to Kim Ryan <kimaryan@ozemail.com.au> for his Mc/Mac solution.
 
 Copyright (c) Mark Summerfield 1998/9. All Rights Reserved.
 
-This module may be used/distributed/modified under the same terms as Perl
-itself.
+This module may be used/distributed/modified under the LGPL. 
 
 =cut
 
