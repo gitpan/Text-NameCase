@@ -1,6 +1,6 @@
 package Text::NameCase ;    # Documented at the __END__.
 
-# $Id: NameCase.pm,v 1.11 1999/08/08 15:17:23 root Exp $
+# $Id: NameCase.pm,v 1.12 1999/09/07 17:37:36 root Exp root $
 
 require 5.004 ;
 
@@ -10,7 +10,7 @@ use Carp ;
 
 use vars qw( $VERSION @ISA @EXPORT @EXPORT_OK ) ;
 
-$VERSION = '1.07' ;
+$VERSION = '1.08' ;
 
 
 use Exporter() ;
@@ -211,6 +211,8 @@ Use Kim Ryan's NameParse.pm for any really sophisticated name parsing.
             default argument.
 
 1999/08/08  Changed licence to LGPL.
+
+1999/09/07  Minor change to packaging for CPAN.
 
 
 =head1 AUTHOR
